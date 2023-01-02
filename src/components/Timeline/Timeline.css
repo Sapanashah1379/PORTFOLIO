@@ -1,0 +1,66 @@
+.Timeline {
+    padding: 0 !important;
+
+}
+
+/* Header  */
+
+
+/*Header title */
+
+.timeline.timeline_header {
+    padding-top: 5px;
+    
+}
+
+.timeline.timeline_firstitem{
+    min-height: 80px !important;
+}
+
+.timeline .MuiTimelineItem-root {
+    min-height: 10px !important;
+}
+/* .timeline .MuiTimelineItem-root {
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    min-height: 40px;
+} */
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+    display: none;
+}
+
+.timeline .timeline_dot_header {
+    color: black !important; 
+    background-color:var(--min-color) !important;
+    font-size: small !important;
+    padding: 10px !important;
+}
+
+/* remaining item */
+.timeline .timeline_dot{
+    color: black;
+    border-color:var(--min-color) !important;
+    padding: 2px;
+}
+
+.timeline .MuitimelineConnector-root{
+    background-color: #eee !important;
+}
+
+.timeline.timeline_dot_header > .MuiSvgIcon-root{
+    font-size: 20px;
+    color: darkslategray !important;
+}
+
+.timeline,separator_padding{
+    padding-left: 13px;
+}
+
+.timeline .timeline_content{
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
